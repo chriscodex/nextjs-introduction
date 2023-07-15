@@ -5,7 +5,7 @@ function productId() {
 
   return (
     <div>
-      Pagina dinamica: 
+      Pagina dinamica: {router.query.id}
     </div>
   )
 }
