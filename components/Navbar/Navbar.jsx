@@ -10,6 +10,9 @@ function Navbar() {
           </Link>
         </li>
         <li>
+          <Link href="/about" legacyBehavior prefetch={ false } >
+            <a>About</a>
+          </Link>
         </li>
       </ul>
     </nav>
