@@ -5,6 +5,9 @@ function Navbar() {
     <nav>
       <ul>
         <li>
+          <Link href="/" legacyBehavior prefetch={ false }>
+            <a>Home</a>
+          </Link>
         </li>
         <li>
         </li>
