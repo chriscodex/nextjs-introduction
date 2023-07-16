@@ -4,7 +4,7 @@ const data: Record<TProductId, TProduct> = {
     id: '2zd33b8c',
     sku: 'NUR72KCM',
     price: 1.15,
-    image: '/images/maluma.jpg',
+    image: '/images/void.webp',
     attributes: {
       description:
         'A relatively new cultivar, it was, the pretty boy baby, discovered in South Africa in the early 1990s by Mr. A.G. (Dries) Joubert. Maluma Babyy. It is a chance seedling of unknown parentage',
