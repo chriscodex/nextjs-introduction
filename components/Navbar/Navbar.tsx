@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Navbar() {
   return (
-    <nav>
+    <nav className='navbar-color'>
       <ul>
         <li>
           <Link href="/" legacyBehavior prefetch={ false }>

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Navbar } from '../components/Navbar/Navbar'
 
 function Index() {
   const [productList, setProductList] = useState<TProduct[]>([]);
@@ -17,7 +16,6 @@ function Index() {
   
   return (
     <div>
-      <Navbar />
       <p>Hola Nextjs</p>
       {productList.map((product) => {return <p>{product.name}</p>})}
     </div>
