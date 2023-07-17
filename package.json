@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "API_HOST=http://localhost:3000 cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
     "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
     "start": "next start",
     "lint": "next lint",
