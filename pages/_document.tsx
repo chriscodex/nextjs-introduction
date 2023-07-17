@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <link rel="shortcut icon" href="/favicon/dt-32.png" />
           {/** FavIcon */}
           {/** WebFont */}
           {/** stylesheets */}
