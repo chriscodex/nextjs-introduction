@@ -16,7 +16,34 @@ export const getStaticProps: GetStaticProps = async () => {
   }
 }
 
+/* Server Side Rendering */
+// export const getServerSideProps = async () => {
+//   const response = await fetch('https://nextjs-introduction.vercel.app/api/avo')
+//   const { data: productList }: TAPIAvoResponse = await response.json()
+
+//   return {
+//     props: {
+//       productList,
+//     },
+//   }
+// }
+
 const HomePage = ({ productList }: { productList: TProduct[] }) => {
+  /* Client Side Rendering */
+  // Also we need to delete {productList} props as parameter in HomePage()
+  // const [productList, setProductList] = useState<TProduct[]>([]);
+
+  // const apiPetition = async () => {
+  //   const response = await fetch('/api/avo')
+  //   const {data, length} = await response.json()
+  //   console.log(data);
+  //   setProductList(data)
+  // }
+  
+  // useEffect(() => {
+  //   apiPetition()
+  // },[])
+
   return (
     <Layout>
       <KawaiiHeader />
