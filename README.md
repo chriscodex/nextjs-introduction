@@ -1,7 +1,6 @@
 <h1 align="center"><strong> Perú Dota 2 Store: E-Comerce con Next.js </strong></h1>
 
-<img src = "https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white">
-<img src = "https://img.shields.io/badge/React.js-1c2c4c?style=flat&logo=react&logoColor=%2361DAFB"> <img src = "https://img.shields.io/badge/Typescript-3179C6?style=flat&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=flat&logo=SemanticUIReact&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"> 
+<img src = "https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white"> <img src = "https://img.shields.io/badge/React.js-1c2c4c?style=flat&logo=react&logoColor=%2361DAFB"> <img src = "https://img.shields.io/badge/Typescript-3179C6?style=flat&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=flat&logo=SemanticUIReact&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"> 
 
 Este repositorio alberga una plataforma de comercio electrónico dedicada a la venta de productos coleccionables inspirados en el videojuego Dota 2. Este proyecto se ha desarrollado utilizando Next.js, React.js y Semantic UI React, y ha sido implementado con TypeScript para una mayor robustez y escalabilidad. El proyecto ofrece un backend (API) y frontend responsivos que se adaptan a distintos tamaños de pantalla. Gracias a Next.js, se ha utilizado su capacidad de pre-renderizado y enrutamiento optimizado para garantizar un rendimiento óptimo y una navegación suave en todo momento, ya que implementa SSG (Static Side Generation). El frontend ha sido construido utilizando React.js y Semantic UI React, por lo que se cuenta con una interfaz de usuario intuitiva.
 
@@ -54,8 +53,8 @@ Por defecto la aplicación se ejecuta en el puerto `:3000`
 
 Los endpoints se encuentran incluidos en el path parameter `/api`
 
-1. [Products](#Products) 
-2. [Single Product](#simgle-product)
+1. [Products](#products) 
+2. [Single Product](#single-product)
 
 - ### **Products**
 Se muestra un listado de todos los productos en un formato JSON.
