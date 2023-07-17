@@ -36,23 +36,21 @@ const Footer = () => (
             </List>
           </Grid.Column>
           <Grid.Column width={7}>
-            <Header as="h4">Hecho para</Header>
+            <Header as="h4">Hecho por</Header>
             <p>
-              <a href="https://platzi.com/">Platzi y su curso de Next.JS</a> de
-              Platzi dictado por{' '}
-              <a href="https://twitter.com/jonalvarezz">@jonalvarezz</a>
+              <a href="https://www.linkedin.com/in/christian-espinoza-cadillo-a29702234/">@chriscodex</a>
             </p>
             <List horizontal style={{ display: 'flex' }}>
               <List.Item
-                icon="twitter"
+                icon="linkedin"
                 style={{ display: 'flex' }}
-                content={<a href="https://twitter.com/jonalvarezz">Twitter</a>}
+                content={<a href="https://www.linkedin.com/in/christian-espinoza-cadillo-a29702234/">LinkedIn</a>}
               />
               <List.Item
                 icon="github"
                 style={{ display: 'flex' }}
                 content={
-                  <a href="https://github.com/jonalvarezz/platzi-nextjs">
+                  <a href="https://github.com/chriscodex">
                     GitHub
                   </a>
                 }
@@ -61,41 +59,6 @@ const Footer = () => (
           </Grid.Column>
         </Grid.Row>
       </Grid>
-      <div className="colophon">
-        <p className="colophon-entry">
-          Icons made by{' '}
-          <a
-            target="_blank"
-            href="https://www.flaticon.com/authors/freepik"
-            title="Freepik"
-          >
-            Freepik
-          </a>
-          {' from '}
-          <a target="_blank" href="https://www.flaticon.com/" title="Flaticon">
-            www.flaticon.com
-          </a>
-        </p>
-        <p className="colophon-entry">
-          Avocado images taken from{' '}
-          <a
-            className="acnor"
-            target="_blank"
-            href="https://www.californiaavocado.com/avocado101/avocado-varieties"
-            title="California Avocado"
-          >
-            Avocado 101
-          </a>
-          {' at '}
-          <a
-            target="_blank"
-            href="https://www.californiaavocado.com"
-            title="Flaticon"
-          >
-            California Avocado
-          </a>
-        </p>
-      </div>
     </Container>
 
     <style jsx>{`

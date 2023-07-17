@@ -15,7 +15,7 @@ const mapProductsToCards = (products: TProduct[]) =>
         header={name}
         image={{ children: <Image src={image} width={333} height={333} /> }}
         meta={{
-          children: <Card.Meta style={{ color: 'dimgray' }}>{price}</Card.Meta>,
+          children: <Card.Meta style={{ color: 'dimgray' }}>S/. {price}</Card.Meta>,
         }}
       />
     </Link>

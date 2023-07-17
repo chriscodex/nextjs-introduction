@@ -1,128 +1,128 @@
 const data: Record<TProductId, TProduct> = {
   '2zd33b8c': {
-    name: 'Maluma Hass Avocado',
+    name: 'Faceless Void',
     id: '2zd33b8c',
     sku: 'NUR72KCM',
-    price: 1.15,
+    price: 89.90,
     image: '/images/void.webp',
     attributes: {
       description:
-        'A relatively new cultivar, it was, the pretty boy baby, discovered in South Africa in the early 1990s by Mr. A.G. (Dries) Joubert. Maluma Babyy. It is a chance seedling of unknown parentage',
-      shape: 'Oval',
-      hardiness: '1 °C',
-      taste: 'Catchy, is an avocado',
+        'El muñeco oficial de Valve del Faceless Void es el complemento perfecto para cualquier fanático de Dota 2. Ya sea para exhibirlo en tu estantería, decorar tu espacio de juego o simplemente para disfrutarlo como un compañero de aventuras, este muñeco deleitará a los fanáticos del juego. Sorprende a tus amigos y seres queridos con este regalo único y auténtico. Es perfecto para cualquier ocasión y seguramente dejará una impresión duradera en los amantes de Dota 2. No pierdas la oportunidad de llevar a casa al imponente Faceless Void en forma de este muñeco oficial de Valve. ¡Añádelo a tu colección de Dota 2 y vive el espíritu del juego en la comodidad de tu hogar!',
+      marca: 'Valve Official',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   '6trfgkkj': {
-    name: 'Fuerte Avocado',
+    name: 'Pudge',
     id: '6trfgkkj',
     sku: 'AX4M8SJV',
-    price: 1.21,
-    image: '/images/fuerte.jpg',
+    price: 299.90,
+    image: '/images/pudge.webp',
     attributes: {
       description:
-        'The Fuerte avocado is the second largest commercial variety behind Hass. It is a long time California commercial variety valued for its winter season ripening and its B-Type blossom type which most growers plant adjacent to the Hass for a more consistent production cycle. This avocado tends to produce heavily in alternate years.',
-      shape: 'Pear',
-      hardiness: '-1 °C',
-      taste: 'Magnificent, is a strong avocado',
+        '¡Colecciona al icónico Pudge de Dota 2 con este juguete coleccionable oficial de Valve! Con detalles sorprendentes y una calidad excepcional, este juguete captura la esencia del temible personaje de Dota 2. Su diseño meticuloso y fiel al juego lo convierte en una pieza imprescindible para los fanáticos y coleccionistas. Fabricado con materiales duraderos, este juguete coleccionable de Pudge es perfecto para exhibirlo en tu estantería, escritorio o vitrina de Dota 2. Su tamaño compacto lo hace ideal para adornar tu espacio de juego o para llevarlo contigo a cualquier aventura. Ya sea que desees expandir tu colección de Dota 2 o sorprender a un amigo apasionado por el juego, este juguete coleccionable oficial de Valve es el regalo perfecto. ¡Añade un toque de Dota 2 a tu vida con el temible Pudge siempre a tu lado!',
+      marca: 'Figma',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   '7bcr49em': {
-    name: 'Gwen Hass Avocado',
+    name: 'Roshan',
     id: '7bcr49em',
     sku: 'HYA78F6J',
-    price: 1.25,
-    image: '/images/gwen.jpg',
+    price: 350.00,
+    image: '/images/roshan.jpg',
     attributes: {
       description:
-        "A seedling bred from 'Hass' x 'Thille' in 1982, 'Gwen' is higher yielding and more dwarfing than 'Hass' in California. The fruit has an oval shape, slightly smaller than 'Hass' (100–200 g or 3.5–7.1 oz), with a rich, nutty flavor. The skin texture is more finely pebbled than 'Hass', and is dull green when ripe. It is frost-hardy down to −1 °C (30 °F)",
-      shape: 'Plump',
-      hardiness: '−1 °C',
-      taste: 'Superb, is an avocado',
+        "¡Agrega al poderoso Roshan a tu colección con este juguete coleccionable oficial de Valve! Con detalles impresionantes y una calidad excepcional, este juguete captura la esencia del emblemático personaje de Dota 2. El imponente Roshan cobra vida en forma de un juguete coleccionable que seguramente atraerá a los fanáticos y coleccionistas. Fabricado con materiales duraderos, este juguete coleccionable de Roshan es perfecto para exhibirlo en tu estantería, escritorio o vitrina de Dota 2. Su diseño auténtico y detallado lo convierte en una pieza de conversación para todos los amantes del juego. Sorprende a tus amigos y seres queridos con este regalo único y auténtico. Ideal para cualquier ocasión, este juguete coleccionable oficial de Valve es un tesoro para los seguidores de Dota 2.",
+      marca: 'Figma',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   '098323ks': {
-    name: 'Bacon Avocado',
-    id: '098323ks',
-    sku: 'BXD100BLK',
-    price: 1.51,
-    image: '/images/bacon.jpg',
+    name: 'Tidehunter',
+    id: 't9dv25gs',
+    sku: 'ZY3T9XXC',
+    price: 499.90,
+    image: '/images/tide.jpg',
     attributes: {
       description:
-        'Developed by a farmer, James Bacon, in 1954, Bacon has medium-sized fruit with smooth, green skin with yellow-green, light-tasting flesh. When ripe, the skin remains green, but darkens slightly, and fruit yields to gentle pressure. It is cold-hardy down to −5 °C (23 °F)',
-      shape: 'Oval',
-      hardiness: '−5 °C',
-      taste: 'Creamy, is an avocado',
+        'Sumérgete en la acción y la ferocidad de Tidehunter de Dota 2 con este impresionante juguete coleccionable de resina. Diseñado con meticulosidad y pintado a mano con precisión, este juguete captura la esencia del temido personaje. Con su imponente presencia y su ancla lista para aplastar a sus enemigos, Tidehunter se presenta en una pose dinámica que cautivará a los fanáticos de Dota 2. Fabricado con materiales de primera calidad, este juguete coleccionable es una pieza esencial para los aficionados de los juegos y los coleccionistas. ¡Lleva a casa a Tidehunter y agrega poder marino a tu colección hoy mismo!',
+      marca: 'Figma',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   b8uthe2y: {
-    name: 'Hass Avocado',
+    name: 'Anti Mage',
     id: 'b8uthe2y',
     sku: 'RMRCZN7E',
-    price: 1.39,
-    image: '/images/hass.jpg',
+    price: 399.90,
+    image: '/images/anti-mage.webp',
     attributes: {
       description:
-        "The 'Hass' is the most common cultivar of avocado. It produces fruit year-round and accounts for 80% of cultivated avocados in the world.[21][55] All 'Hass' trees are descended from a single 'mother tree' raised by a mail carrier named Rudolph Hass, of La Habra Heights, California.[20][55] Hass patented the productive tree in 1935. The 'mother tree', of uncertain subspecies, died of root rot and was cut down in September 2002.[21][55][56] 'Hass' trees have medium-sized (150–250 g or 5.3–8.8 oz), ovate fruit with a black, pebbled skin. The flesh has a nutty, rich flavor with 19% oil. A hybrid Guatemalan type can withstand temperatures to −1 °C (30 °F)",
-      shape: 'Oval',
-      hardiness: '−1 °C',
-      taste: 'Gorgeous, is an avocado',
+        "Este impresionante juguete coleccionable de resina captura la esencia y la elegancia del icónico personaje de Dota 2, Anti-Mage. Con detalles meticulosos y una calidad excepcional, este artículo de colección es perfecto para los fanáticos más devotos y los coleccionistas apasionados. Fabricado con resina de alta calidad, este juguete coleccionable es una verdadera obra de arte. Su acabado excepcional y su peso sólido lo convierten en una pieza destacada en cualquier estantería o vitrina de Dota 2. Con su postura dinámica y su expresión imponente, el juguete coleccionable de Anti-Mage añade un toque de magia y poder a tu colección. Ya sea que lo muestres orgullosamente o lo guardes en su caja especial, este juguete será el centro de atención. No pierdas la oportunidad de añadir este increíble juguete coleccionable de resina de Anti-Mage a tu colección de Dota 2. ¡Hazte con él y deja que la fuerza y el estilo de Anti-Mage iluminen tu exhibición de Dota 2!",
+      marca: 'Figma',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   ewxsd6xb: {
-    name: 'Lamb Hass Avocado',
+    name: 'Lina',
     id: 'ewxsd6xb',
     sku: 'N55229ZA',
-    price: 1.34,
-    image: '/images/lamb.jpg',
+    price: 399.90,
+    image: '/images/lina.webp',
     attributes: {
       description:
-        'The Lamb Hass avocado is a cross between a Hass and Gwen avocado. The fruits are larger in size and later maturing than Hass. It is gaining in popularity as a commercial and backyard variety due to its exceptional flavor and easy peeling qualities. The tree has an upright, compact habit.',
-      shape: 'Obovate',
-      hardiness: '-2 °C',
-      taste: 'Great, is an avocado',
+        '¡Haz brillar tu colección con este magnífico juguete coleccionable de resina de Lina de Dota 2! Capturando la esencia de la poderosa hechicera, este juguete coleccionable de resina es una obra de arte imprescindible para los fanáticos de Dota 2. Cada detalle meticuloso, desde su expresión facial hasta los detalles de su vestimenta, muestra el increíble nivel de artesanía que se ha invertido en esta figura. Fabricado con resina de alta calidad, este juguete coleccionable de Lina tiene un peso sólido y un acabado excepcional. Su diseño dinámico y su pose imponente la convierten en el centro de atención de cualquier exhibición de Dota 2. Ya sea que lo coloques en tu estantería, escritorio o vitrina, este juguete coleccionable de resina de Lina será el orgullo de tu colección. Agrega un toque de magia y elegancia a tu espacio con esta impresionante figura. No dejes pasar la oportunidad de tener esta increíble obra de arte en tu colección de Dota 2. ¡Hazte con este juguete coleccionable de resina de Lina y deja que su poder místico brille en tu exhibición de Dota 2!',
+      marca: 'Figma',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   fpr72m9k: {
-    name: 'Pinkerton Avocado',
+    name: 'Windranger',
     id: 'fpr72m9k',
     sku: 'B4HZ42TM',
-    price: 1.27,
-    image: '/images/pinkerton.jpg',
+    price: 399.90,
+    image: '/images/wr.webp',
     attributes: {
       description:
-        "First grown on the Pinkerton Ranch in Saticoy, California, in the early 1970s, 'Pinkerton' is a seedling of 'Hass' x 'Rincon'. The large fruit has a small seed, and its green skin deepens in color as it ripens. The thick flesh has a smooth, creamy texture, pale green color, good flavor, and high oil content. It shows some cold tolerance, to −1 °C (30 °F) and bears consistently heavy crops. A hybrid Guatemalan type, it has excellent peeling characteristics",
-      shape: 'Long pear',
-      hardiness: '−1 °C',
-      taste: 'Marvelous, is an avocado',
+        "Descubre el encanto y la elegancia de Windranger de Dota 2 con este increíble juguete coleccionable de resina. Detallado con precisión y meticulosamente pintado a mano, este juguete captura la esencia del icónico personaje. Con su arco en alto y su capa flotando al viento, Windranger se presenta en una pose dinámica que hará que cualquier fanático de Dota 2 se enamore al instante. Fabricado con materiales de alta calidad, este juguete coleccionable es una pieza imprescindible para los amantes de los juegos y los coleccionistas. Lleva a casa a Windranger y dale vida a tus batallas en el mundo real. ¡Agrega este tesoro a tu colección hoy mismo!",
+      marca: 'Figma',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   t9dv25gs: {
-    name: 'Reed Avocado',
-    id: 't9dv25gs',
-    sku: 'ZY3T9XXC',
-    price: 1.18,
-    image: '/images/reed.jpg',
+    name: 'Baby Roshan',
+    id: '098323ks',
+    sku: 'BXD100BLK',
+    price: 99.90,
+    image: '/images/baby-roshan.webp',
     attributes: {
       description:
-        'Developed from a chance seedling found in 1948 by James S. Reed in California, this cultivar has large, round, green fruit with a smooth texture and dark, thick, glossy skin. Smooth and delicate, the flesh has a slightly nutty flavor. The skin ripens green. A Guatemalan type, it is hardy to −1 °C (30 °F). Tree size is about 5 by 4 m (16.4 by 13.1 ft)',
-      shape: 'Round',
-      hardiness: '−1 °C',
-      taste: 'Exquisite, is an avocado',
+        '¡Adquiere al encantador Baby Roshan, un juguete coleccionable imprescindible para los fans de Dota 2! Este adorable juguete coleccionable oficial de Valve captura la ternura y la esencia del querido personaje de Dota 2, Baby Roshan. Con un diseño detallado y una calidad excepcional, este juguete es perfecto para coleccionar, exhibir y apreciar su encanto único. Este juguete coleccionable del Baby Roshan es un regalo perfecto para los fanáticos de Dota 2 y los coleccionistas. ¡Sorprende a tus amigos o a ti mismo con esta joya de la colección oficial de Valve! No te pierdas la oportunidad de poseer este tierno y valioso juguete coleccionable del Baby Roshan. ¡Agrega un toque de Dota 2 a tu colección y deja que la adorable presencia del Baby Roshan ilumine tus días!',
+      marca: 'Valve Official',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
   t345w48y: {
-    name: 'Zutano Avocado',
+    name: 'Slark',
     id: 't345w48y',
     sku: 'MW79ZZ6Y',
-    price: 1.25,
-    image: '/images/zutano.jpg',
+    price: 149.90,
+    image: '/images/slark.jpg',
     attributes: {
       description:
-        'The Zutano avocado is a cold hardy, consistent producing avocado variety. It resembles the Fuerte in appearance but is less flavorful but more cold hardy. The green fruits are obovate in shape with waxy bumps on the skin. The flesh has a low oil but high water content which causes it to have a more fibrous texture.',
-      shape: 'Pear',
-      hardiness: '-5 °C',
-      taste: 'Splendid, is an avocado',
+        'Sumérgete en la oscuridad y la agilidad de Slark de Dota 2 con este asombroso juguete coleccionable de resina. Detallado con precisión y pintado a mano con maestría, este juguete captura la esencia del sigiloso personaje. Con su postura furtiva y sus garras afiladas, Slark se presenta en una pose dinámica que cautivará a los fanáticos de Dota 2. Fabricado con materiales de alta calidad, este juguete coleccionable es una adición imprescindible para los amantes de los juegos y los coleccionistas. Lleva a casa a Slark y desata el poder de las sombras en tu colección hoy mismo. ¡No pierdas la oportunidad de tener a este icónico héroe en tus manos!',
+      marca: 'Valve Official',
+      altura: '16 cm',
+      ancho: '10 cm'
     },
   },
 }

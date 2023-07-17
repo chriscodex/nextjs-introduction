@@ -4,29 +4,24 @@ import Layout from '@components/Layout/Layout'
 
 const avoFacts = [
   {
-    title: 'Most avocados come from Mexico',
+    title: '¿Quienes somos?',
     content:
-      'While avocados are grown in California and Florida, the majority sold in grocery stores come from south central Mexico. The main reason for the abundance of “south of the border” avocados is that Mexico is blessed with a year-round growing climate. The avocado is believed to have originated in the state of Puebla, Mexico, as far back as 10,000 B.C.',
+      'En Perú Dota 2 Store, somos apasionados por el fascinante mundo de Dota 2 y nos enorgullece ofrecerte una amplia gama de productos coleccionables de tus héroes favoritos. Ya seas un jugador apasionado, un entusiasta de la temática de Dota 2 o un coleccionista ávido, ¡aquí encontrarás algo que te encantará!',
   },
   {
-    title: 'The conquistadors were huge fans.',
+    title: 'Nuestro objetivo',
     content:
-      'Spanish explorers arriving in Mexico during the 16th century survived on avocados and were the first Europeans to consume them. As a result of the Spanish Conquest, avocados spread to South America and Central America. ',
+      'Nuestro objetivo es brindarte la mejor experiencia de compra posible mientras te sumerges en el universo de Dota 2. Trabajamos en estrecha colaboración con empresas de todo el Perú, así como con los proveedores oficiales de Valve, para asegurarnos de que nuestros productos sean auténticos, de alta calidad y estén respaldados por la pasión y el cuidado que merecen.',
   },
   {
-    title: '“Avocado” wasn’t its original name.',
+    title: 'Lo que ofrecemos',
     content:
-      'Irishman Sir Hans Sloane called it an avocado in 1696 in a Jamaican-plants catalog. He also dubbed the avocado tree the “alligator pear tree.”',
+      'En Perú Dota 2 Store, encontrarás una amplia selección de productos que incluyen figuras de acción, peluches, ropa, pósters, tazas y muchos más artículos relacionados con Dota 2. Trabajamos arduamente para mantenernos actualizados con las últimas novedades y lanzamientos, por lo que siempre podrás encontrar productos nuevos y emocionantes en nuestra tienda.',
   },
   {
-    title: 'It’s actually a fruit.',
+    title: 'Nuestro Servicio',
     content:
-      'Did you know that an avocado is a fruit? While definitely not sweet, it falls firmly in the fruit-not the vegetable-family. That’s because the avocado tree is part of the flowering-plant family Lauraceae.',
-  },
-  {
-    title: 'There’s a secret trick to ripening them up quick',
-    content:
-      'Need to ripen that avocado ASAP? Place it in a brown paper bag with a banana or two. The bananas will release ethylene gas, a natural plant hormone that aids in ripening fruit. On the other hand, check out this guide to learn how to store them for later.',
+      'Nos enorgullece ofrecer a nuestros clientes un servicio excepcional. Nuestro equipo amable y conocedor está siempre dispuesto a ayudarte en todo lo que necesites, ya sea para responder preguntas, proporcionar recomendaciones o ayudarte a encontrar ese artículo especial que has estado buscando. Tu satisfacción es nuestra máxima prioridad. ',
   },
 ]
 
@@ -35,19 +30,10 @@ const AboutPage = () => {
     <Layout>
       <section>
         <Header as="h1" textAlign="center">
-          13 Surprising Facts About Avocados
+          Bienvenidos a Perú Dota 2 Store
         </Header>
         <figure>
-          <Image src="/images/avocados.jpg" alt="Avocados on a table" />
-          <figcaption>
-            Originally from{' '}
-            <a
-              target="_blank"
-              href="https://www.tasteofhome.com/article/13-surprising-facts-about-avocados/"
-            >
-              Taste of Home
-            </a>
-          </figcaption>
+          <Image src="/images/dt2.jpg" alt="Avocados on a table" />
         </figure>
         <ol>
           {avoFacts.map(({ title, content }) => (

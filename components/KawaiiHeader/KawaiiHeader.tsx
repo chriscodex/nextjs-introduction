@@ -18,12 +18,12 @@ const KawaiiHeader = () => {
     window.setTimeout(toggleVisible, 350)
   }, [])
 
-  useEffect(() => {
-    if (count === 4) {
-      setMeMori(true)
-      setModalOpen(true)
-    }
-  }, [count])
+  // useEffect(() => {
+  //   if (count === 4) {
+  //     setMeMori(true)
+  //     setModalOpen(true)
+  //   }
+  // }, [count])
 
   return (
     <div className="container">

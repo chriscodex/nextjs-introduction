@@ -6,7 +6,7 @@ const ProductAttributes = ({
   ...otherAttributes
 }: TProductAttributes) => (
   <section className="container">
-    <Header as="h3">About this avocado</Header>
+    <Header as="h3">Acerca de este producto</Header>
     <p>{description}</p>
 
     <Divider />
@@ -14,7 +14,7 @@ const ProductAttributes = ({
     <Table celled>
       <Table.Header>
         <Table.Row>
-          <Table.HeaderCell colSpan="2">Attributes</Table.HeaderCell>
+          <Table.HeaderCell colSpan="2">Características</Table.HeaderCell>
         </Table.Row>
       </Table.Header>
 
