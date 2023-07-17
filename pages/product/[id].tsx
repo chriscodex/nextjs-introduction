@@ -6,61 +6,34 @@ import ProductSummary from '@components/ProductSummary/ProductSummary'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { useRouter } from 'next/router'
 
-// export const getServerSideProps = async () => {
-//   const PROTOCOL = process.env.PROTOCOL
-//   const URL = process.env.BKND_URL
+export const getStaticPaths: GetStaticPaths = async () => {
+  const response = await fetch('https://nextjs-introduction.vercel.app/api/avo')
+  const { data }: TAPIAvoResponse = await response.json()
 
-//   const response = await fetch(`${PROTOCOL}${URL}/api/avo`)
-//   const {data: productList}: TAPIAvoResponse = await response.json()
+  const paths = data.map(({ id }) => ({ params: { id } }))
 
-//   return {
-//     props: {
-//       productList
-//     }
-//   }
-// }
+  return {
+    // Statically generate all paths
+    paths,
+    // Display 404 for everything else
+    fallback: false,
+  }
+}
 
-// export const getStaticPaths: GetStaticPaths = async () => {
-//   const response = await fetch(`${process.env.API_HOST}/api/avo`)
-//   const { data }: TAPIAvoResponse = await response.json()
+// This also gets called at build time
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  // params contains the post `id`.
+  // If the route is like /posts/1, then params.id is 1
+  const response = await fetch(
+    `https://nextjs-introduction.vercel.app/api/avo/${params?.id}`
+  )
+  const product = await response.json()
 
-//   const paths = data.map(({ id }) => ({ params: { id } }))
+  // Pass post data to the page via props
+  return { props: { product } }
+}
 
-//   return {
-//     // Statically generate all paths
-//     paths,
-//     // Display 404 for everything else
-//     fallback: false,
-//   }
-// }
-
-// // This also gets called at build time
-// export const getStaticProps: GetStaticProps = async ({ params }) => {
-//   // params contains the post `id`.
-//   // If the route is like /posts/1, then params.id is 1
-//   const response = await fetch(
-//     `${process.env.API_HOST}/api/avo/${params?.id}`
-//   )
-//   const product = await response.json()
-
-//   // Pass post data to the page via props
-//   return { props: { product } }
-// }
-
-const ProductPage = () => {
-  const {query} = useRouter()
-  const [product, setProduct] = useState<TProduct>()
-
-  useEffect(() => {
-    if (query.id) {
-      fetch(`/api/avo/${query.id}`)
-      .then((response) => response.json())
-      .then((data: TProduct) => {
-        setProduct(data)
-      })
-    }
-  })
-
+const ProductPage = ({ product }: { product: TProduct }) => {
   return (
     <Layout>
       {product == null ? null : <ProductSummary product={product} />}
